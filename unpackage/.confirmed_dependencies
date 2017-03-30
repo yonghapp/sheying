@@ -1,0 +1,557 @@
+{
+	"index.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"fonts/iconfont.css",
+			"css/base.css",
+			"css/underway.css",
+			"css/iconfont.css",
+			"images/underwayicon_11.png",
+			"fonts/iconfont.woff",
+			"images/underwayicon_03.png",
+			"images/share_07.png",
+			"images/underwayicong_03.png",
+			"images/waitissue_07.png",
+			"images/waitissue_12.png",
+			"images/waitissue_10.png",
+			"images/waitissue_03.png",
+			"html/wait.html",
+			"html/search.html",
+			"html/Previous winner.html",
+			"html/user.html",
+			"register.html",
+			"html/xiangqing.html",
+			"html/Match.html",
+			"html/huojiang.html",
+			"images/ly2icon3.png",
+			"css/Not-logged-in.css",
+			"images/ly2.png",
+			"html/enter.html",
+			"html/register.html",
+			"html/set.html",
+			"images/ly.png"
+		],
+		"refer": [
+			"html/wait.html",
+			"html/search.html",
+			"html/Previous winner.html",
+			"html/user.html",
+			"register.html",
+			"html/xiangqing.html",
+			"html/Match.html",
+			"html/enter.html",
+			"html/register.html",
+			"html/set.html"
+		]
+	},
+	"html/wait.html": {
+		"resources": [
+			"index.html",
+			"html/finish.html",
+			"css/wait.css",
+			"html/xiangqing.html",
+			"html/Not-logged-in.html",
+			"html/fonts/iconfont.css",
+			"html/Previous winner.html",
+			"html/user.html",
+			"html/search.html"
+		],
+		"refer": [
+			"index.html",
+			"html/finish.html",
+			"html/xiangqing.html",
+			"html/Not-logged-in.html",
+			"html/Previous winner.html",
+			"html/user.html",
+			"html/search.html"
+		]
+	},
+	"html/finish.html": {
+		"resources": [
+			"index.html",
+			"html/wait.html",
+			"css/finish.css",
+			"html/huojiang.html",
+			"html/fonts/iconfont.css",
+			"html/user.html",
+			"html/search.html"
+		],
+		"refer": [
+			"index.html",
+			"html/wait.html",
+			"html/huojiang.html",
+			"html/user.html",
+			"html/search.html"
+		]
+	},
+	"html/user.html": {
+		"resources": [
+			"index.html",
+			"images/personal-center_03.png",
+			"css/user.css",
+			"images/User-response_01.png",
+			"html/Previous winner.html",
+			"fonts/iconfont.css",
+			"css/base.css",
+			"fonts/iconfont.woff",
+			"html/usercenter.html",
+			"html/set.html",
+			"html/balance.html",
+			"html/Fans.html",
+			"html/Not-logged-in.html",
+			"html/shoucang.html",
+			"html/fonts/iconfont.css",
+			"html/follow.html"
+		],
+		"refer": [
+			"index.html",
+			"html/Previous winner.html",
+			"html/usercenter.html",
+			"html/set.html",
+			"html/balance.html",
+			"html/Fans.html",
+			"html/shoucang.html",
+			"html/Not-logged-in.html",
+			"html/follow.html"
+		]
+	},
+	"html/Previous winner.html": {
+		"resources": [
+			"index.html",
+			"css/Previous winner .css",
+			"images/Previous-winner_04.png",
+			"html/user.html",
+			"images/Previous-winner_02.png",
+			"images/Previous-winner_03.png",
+			"fonts/iconfont.css",
+			"css/base.css",
+			"images/underwayicon_11.png",
+			"fonts/iconfont.woff",
+			"html/details.html",
+			"html/Not-logged-in.html",
+			"html/fonts/iconfont.css"
+		],
+		"refer": [
+			"index.html",
+			"html/user.html",
+			"html/details.html",
+			"html/Not-logged-in.html"
+		]
+	},
+	"html/usercenter.html": {
+		"resources": [
+			"css/usercenter.css",
+			"images/Previous-work-details_12.png",
+			"images/User-response_05.png",
+			"images/User-response_03.png",
+			"images/Previous-work-details_03.png",
+			"images/Previous-work-details_06.png",
+			"images/Previous-work-details_09.png",
+			"images/more.png",
+			"html/user.html",
+			"html/Fans.html",
+			"html/follow.html"
+		],
+		"refer": [
+			"html/user.html",
+			"html/Fans.html",
+			"html/follow.html"
+		]
+	},
+	"html/set.html": {
+		"resources": [
+			"css/set.css",
+			"html/user.html",
+			"html/fonts/iconfont.css",
+			"index.html"
+		],
+		"refer": [
+			"html/user.html",
+			"index.html"
+		]
+	},
+	"html/balance.html": {
+		"resources": [
+			"images/balance_03.png",
+			"css/balance.css",
+			"html/user.html",
+			"css/base.css",
+			"html/bank.html",
+			"html/banktx.html",
+			"html/fonts/iconfont.css"
+		],
+		"refer": [
+			"html/user.html",
+			"html/bank.html",
+			"html/banktx.html"
+		]
+	},
+	"register.html": {
+		"resources": [
+			"images/lyregister.png",
+			"css/register.css",
+			"Not-logged-in.html"
+		],
+		"refer": [
+			"Not-logged-in.html"
+		]
+	},
+	"Not-logged-in.html": {
+		"resources": [
+			"images/ly2icon3.png",
+			"css/Not-logged-in.css",
+			"images/ly2.png",
+			"register.html",
+			"enter.html",
+			"images/waitissue_12.png",
+			"images/underwayicong_03.png",
+			"js/mui.min.js",
+			"images/share_07.png",
+			"images/waitissue_10.png",
+			"css/mui.min.css",
+			"images/underwayicon_11.png",
+			"images/waitissue_07.png",
+			"css/underway.css",
+			"images/waitissue_03.png",
+			"html/user.html"
+		],
+		"refer": [
+			"register.html",
+			"enter.html",
+			"html/user.html"
+		]
+	},
+	"enter.html": {
+		"resources": [
+			"css/enter.css",
+			"Not-logged-in.html",
+			"images/ly.png",
+			"fonts/iconfont.css",
+			"css/base.css",
+			"fonts/iconfont.woff"
+		],
+		"refer": [
+			"Not-logged-in.html"
+		]
+	},
+	"html/xiangqing.html": {
+		"resources": [
+			"images/xiang-qing.png",
+			"css/xiangqing.css",
+			"images/weixin.png",
+			"images/The-user-work-details_10.png",
+			"images/qq.png",
+			"html/fonts/iconfont.css",
+			"images/weibo.png",
+			"html/fonts/iconfont.woff",
+			"images/kongjian.png",
+			"images/yonghu1.png",
+			"html/comment.html",
+			"css/base.css",
+			"images/waitissue_03.png",
+			"html/wait.html",
+			"images/waitissueactivitydetails_02.png"
+		],
+		"refer": [
+			"html/comment.html",
+			"html/wait.html"
+		]
+	},
+	"html/comment.html": {
+		"resources": [
+			"css/comment.css",
+			"images/top1.png",
+			"css/base.css",
+			"images/xiang-qing.png",
+			"images/The-user-work-details_10.png",
+			"html/fonts/iconfont.css",
+			"html/fonts/iconfont.woff",
+			"images/yonghu1.png",
+			"html/xiyou.html"
+		],
+		"refer": [
+			"html/xiyou.html"
+		]
+	},
+	"html/xiyou.html": {
+		"resources": [
+			"css/xi-you.css",
+			"images/weixin.png",
+			"images/qq.png",
+			"html/fonts/iconfont.css",
+			"images/weibo.png",
+			"images/kongjian.png",
+			"html/comment.html",
+			"images/waitissue_03.png"
+		],
+		"refer": [
+			"html/comment.html"
+		]
+	},
+	"html/Match.html": {
+		"resources": [
+			"html/fonts/iconfont.css",
+			"css/Match.css",
+			"html/fonts/iconfont.woff"
+		],
+		"refer": []
+	},
+	"html/huojiang.html": {
+		"resources": [
+			"css/huojiang.css",
+			"images/takepartpeopledetials_03.png",
+			"html/fonts/iconfont.css",
+			"images/takepartpeopledetials_07.png",
+			"html/fonts/iconfont.woff",
+			"images/winning-details_03_03.png",
+			"images/takepartpeopledetials_14.png",
+			"images/takepartpeopledetials_16.png",
+			"images/takepartpeopledetials_20.png",
+			"images/takepartpeopledetials_10.png",
+			"images/Second.png",
+			"js/huojiang.js",
+			"images/winning-details_03_08.png",
+			"html/finish.html"
+		],
+		"refer": [
+			"html/finish.html"
+		]
+	},
+	"html/enter.html": {
+		"resources": [
+			"css/enter.css",
+			"html/fonts/iconfont.css",
+			"images/ly.png",
+			"html/fonts/iconfont.woff",
+			"css/base.css",
+			"index.html",
+			"html/Not-logged-in.html"
+		],
+		"refer": [
+			"index.html",
+			"html/Not-logged-in.html"
+		]
+	},
+	"html/Not-logged-in.html": {
+		"resources": [
+			"images/waitissue_12.png",
+			"images/underwayicong_03.png",
+			"images/share_07.png",
+			"images/waitissue_10.png",
+			"images/underwayicon_11.png",
+			"images/waitissue_07.png",
+			"css/underway.css",
+			"images/waitissue_03.png",
+			"html/fonts/iconfont.css",
+			"html/user.html",
+			"css/base.css",
+			"html/wait.html",
+			"html/Previous winner.html",
+			"html/jinxing.html",
+			"html/finish.html",
+			"html/search.html"
+		],
+		"refer": [
+			"html/user.html",
+			"html/wait.html",
+			"html/Previous winner.html",
+			"html/jinxing.html",
+			"html/finish.html",
+			"html/search.html"
+		]
+	},
+	"html/register.html": {
+		"resources": [
+			"index.html",
+			"css/base.css",
+			"images/lyregister.png",
+			"css/register.css",
+			"html/fonts/iconfont.css",
+			"html/fonts/iconfont.woff"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"html/Fans.html": {
+		"resources": [
+			"html/xiyou.html",
+			"css/Fans.css",
+			"images/top1.png",
+			"images/xiang-qing.png",
+			"images/The-user-work-details_10.png",
+			"html/fonts/iconfont.css",
+			"images/yonghu1.png",
+			"html/user.html",
+			"css/base.css",
+			"html/fonts/iconfont.woff"
+		],
+		"refer": [
+			"html/xiyou.html",
+			"html/user.html"
+		]
+	},
+	"html/tjbankph.html": {
+		"resources": [
+			"css/base.css",
+			"css/tjbankph.css",
+			"html/verify.html",
+			"html/tjbank.html",
+			"html/fonts/iconfont.css"
+		],
+		"refer": [
+			"html/verify.html",
+			"html/tjbank.html"
+		]
+	},
+	"html/details.html": {
+		"resources": [
+			"images/Previous-work-details_12.png",
+			"images/h (1).jpg",
+			"css/details.css",
+			"html/Previous winner.html",
+			"images/Previous-work-details_16.png",
+			"images/h (2).jpg",
+			"images/Previous-work-details_09.png",
+			"images/The-user-work-details_10.png",
+			"images/h (3).jpg",
+			"html/fonts/iconfont.css"
+		],
+		"refer": [
+			"html/Previous winner.html"
+		]
+	},
+	"html/banktx.html": {
+		"resources": [
+			"css/banktx.css",
+			"html/balance.html"
+		],
+		"refer": [
+			"html/balance.html"
+		]
+	},
+	"html/verify.html": {
+		"resources": [
+			"css/base.css",
+			"html/tjbankph.html",
+			"css/verify.css",
+			"html/fonts/iconfont.css"
+		],
+		"refer": [
+			"html/tjbankph.html"
+		]
+	},
+	"html/tjbank.html": {
+		"resources": [
+			"css/tjbank.css",
+			"css/base.css",
+			"html/bank.html",
+			"html/tjbankph.html",
+			"html/fonts/iconfont.css"
+		],
+		"refer": [
+			"html/bank.html",
+			"html/tjbankph.html"
+		]
+	},
+	"html/participate.html": {
+		"resources": [
+			"css/participate.css",
+			"images/takepartpeopledetials_14.png",
+			"images/takepartpeopledetials_20.png",
+			"images/takepartpeopledetials_10.png",
+			"html/fonts/iconfont.css",
+			"html/jinxing.html",
+			"images/takepartpeopledetials_07.png",
+			"js/huojiang.js"
+		],
+		"refer": [
+			"html/jinxing.html"
+		]
+	},
+	"html/jinxing.html": {
+		"resources": [
+			"images/xiang-qing.png",
+			"images/takepartpeopledetials_03.png",
+			"html/Not-logged-in.html",
+			"images/The-user-work-details_10.png",
+			"images/weixin.png",
+			"images/qq.png",
+			"html/participate.html",
+			"images/waitissueactivitydetails_02.png",
+			"images/weibo.png",
+			"images/yonghu1.png",
+			"images/top1.png",
+			"images/takepartpeopledetials_16.png",
+			"css/jinxing.css",
+			"html/fonts/iconfont.css",
+			"images/kongjian.png",
+			"html/Match.html"
+		],
+		"refer": [
+			"html/Not-logged-in.html",
+			"html/participate.html",
+			"html/Match.html"
+		]
+	},
+	"html/bank.html": {
+		"resources": [
+			"css/base.css",
+			"html/balance.html",
+			"html/tjbank.html",
+			"css/bank.css",
+			"html/fonts/iconfont.css"
+		],
+		"refer": [
+			"html/balance.html",
+			"html/tjbank.html"
+		]
+	},
+	"html/shoucang.html": {
+		"resources": [
+			"html/user.html",
+			"images/takepartpeopledetials_10.png",
+			"images/takepartpeopledetials_20.png",
+			"images/takepartpeopledetials_03.png",
+			"images/weixin.png",
+			"images/qq.png",
+			"images/takepartpeopledetials_07.png",
+			"images/weibo.png",
+			"images/takepartpeopledetials_14.png",
+			"images/takepartpeopledetials_16.png",
+			"css/shoucang.css",
+			"js/shoucang.js",
+			"images/kongjian.png",
+			"html/fonts/iconfont.css"
+		],
+		"refer": [
+			"html/user.html"
+		]
+	},
+	"html/follow.html": {
+		"resources": [
+			"html/user.html",
+			"css/follow.css",
+			"images/top1.png",
+			"images/xiang-qing.png",
+			"images/The-user-work-details_10.png",
+			"images/yonghu1.png"
+		],
+		"refer": [
+			"html/user.html"
+		]
+	},
+	"html/search.html": {
+		"resources": [
+			"index.html",
+			"css/search.css",
+			"html/fonts/iconfont.css",
+			"html/Not-logged-in.html"
+		],
+		"refer": [
+			"index.html",
+			"html/Not-logged-in.html"
+		]
+	}
+}

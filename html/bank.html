@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+	 <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>零钱充值</title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+    <link rel="stylesheet" type="text/css" href="../css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/bank.css"/>
+    <link rel="stylesheet" type="text/css" href="fonts/iconfont.css"/>
+</head>
+<body>
+	<script>
+		
+		 function dd(){
+		 	var hk=document.getElementById("tianjiak");
+		 	if(hk.style.display="none"){
+		 		hk.style.display="block";
+		 		sd.style.display="block";
+		 	}
+		 }
+		  function al(){
+		 	var hk=document.getElementById("tianjiak");
+		 	if(hk.style.display="block"){
+		 		hk.style.display="none";
+		 	}
+		 }
+		  
+		  function suced(){
+		 	var hkl=document.getElementById("suced");
+		 	if(hkl.style.display="none"){
+		 		hkl.style.display="block";
+		 		sd.style.display="block";
+		 	}
+		 }
+		   function all(){
+		 	var hkl=document.getElementById("suced");
+		 	if(hkl.style.display="block"){
+		 		hkl.style.display="none";
+		 	}
+		 }
+	</script>
+	
+	<header class="head">
+		<a href="balance.html" class="return"><i class="iconfont icon-3"></i></a>
+		<h3 class="headh3">零钱充值</h3>
+	</header>
+	<section class="ct">
+		<section class="bank" onclick="dd()">
+			<span class="banktype">储蓄卡</span>
+			<p class="bankname">农业银行</p>
+			<p class="limit">单日交易限额10000.00</p>
+		</section>
+		<section class="money">
+			<label class="mname">金额（元）:</label>
+			<input type="text" placeholder="请填写充值金额"/>
+		</section>
+		<section class="next">
+			<p  onclick="suced()">下一步</p>
+		</section>
+		<section class="tianjiabank" id="tianjiak">
+			<p class="tj">
+				<a href=""class="finish">完成</a>
+				<a href="" class="cancle" onclick="al()">取消</a>
+			</p>
+			<p class="newbank">农行卡支付</p>
+			<p class="tinajiaka"><a href="tjbank.html">添加新卡支付</a></p>
+		</section>
+		<section class="tianjibankgbg" id="sd"></section>
+		
+		
+		
+		<section class="secceed" id="suced" >
+			<p class="succeedtt">输入支付密码</p>
+			<p class="succeedwd ">
+				<input type="text" name="" id="" value="" />
+				<br>
+				<a href="" onclick="all()">取消</a>
+				<a href="" onclick="all()" class="true">确认</a>
+			</p>
+		</section>
+	</section>
+	
+</body>
+</html>

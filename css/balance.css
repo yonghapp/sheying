@@ -1,0 +1,73 @@
+@charset "utf-8";
+*{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+body{
+	background: #f2f2f2;
+}
+.head{
+	width: 100%;
+	height: 44px;
+	background: #f2f2f2;
+}
+.return{
+	display: block;
+	float: left;
+	width:9.6%;
+	height: 44px;
+	line-height:44px;
+	text-align: center;
+}
+.return i{
+	color: #333;
+}
+.ct{
+	width: 100%;
+	position: relative;	
+	font-family: "苹方";
+}
+.balanceicon{
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 91px;;
+	margin-left: -50px;
+	width: 100px;
+	height: 100px;
+	background: url(../images/balance_03.png) no-repeat;
+	background-repeat; center center;
+	background-size: 100%;
+}
+.mybalance,
+.balancenumber{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	color: #333;
+}
+.mybalance{
+	font-size: 12px ;
+	top: 213px;
+}
+.balancenumber{
+	top: 237px;
+	font-size: 20px;
+}
+.cta{
+	width: 76.8%;
+	height: 40px;
+	border-radius: 5px;
+	position: absolute;
+	left: 50%;
+	margin-left: -38.4%;
+	background: #ddd;
+	text-align: center;
+	line-height: 40px;
+}
+.recharge{
+	top: 307.5px;
+	background: #10c7b8;
+}
+.extract{
+	top: 362.5px;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>赛事详情</title>
+	<link rel="stylesheet" type="text/css" href="../css/base.css">
+	<link rel="stylesheet" type="text/css" href="../css/xiangqing.css">
+	<link rel="stylesheet" type="text/css" href="fonts/iconfont.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body >
+	<header>
+		<a href="javascript:history.go(-1)"><i class="iconfont icon-3"></i></a>
+		<p>详情页面</p>
+		<button id="text" onclick="Obtn()">
+		<span id="text">+ 关注</span>
+		</button>
+	</header>
+	<article class="img">
+	<img src="../images/waitissueactivitydetails_02.png">
+	</article>
+	<article>
+		<section class="img-text">
+			<h1>2016年设计作品</h1>
+			<h2>【林荫道】创意设计作品选票即将开始！</h2>
+			<p class="bottom1">为近期@林荫道创意摄影大赛作品征集，综合作品的热度严格评选
+				双方摄影师的意见。<br>
+				比赛将以点赞总数为主要评选标准，票选前3名将获得现金奖励合
+				作大奖。<br>
+				联合制至实物商品并与甲方签订成协议，共享平台售卖利润分成
+			</p>
+			<h2>奖品设置：</h2>
+			<p>3份现金大奖（共一千元）</p>
+			<h2>评选标准</h2>
+			<p>A.创意性：创作内容积极生动，作品呈现完整；<br>
+			B.品牌性：吻合品牌调性，体现时尚、品质、环保有设计感，并符
+			合中国传统文化与现代时尚相结合；<br>
+			C.传播性：作品易于传播，能够引起人们的共鸣。
+			</p>
+			<h2>产品目标</h2>
+			<p>A.可用于日后对各产品的投产、使用以及售卖；<br>
+			B.作品符合主题且能体现美好、祝愿的情感。
+			</p>
+			<h2>参与方法：</h2>
+			<p>在掠影校园app客户端格式上传，并打上#创意相关标签即可，不<br>
+				限单人投稿数量</p>
+			<h2>征集时间：12月15日-12月21日</h2>
+			<h2>结束时间：12月21日-12月30日</h2>
+		</section>
+	</article>
+	<div class="juli"></div>
+	<footer>
+		<a href="comment.html"><button ><i class="iconfont icon-pinglun"></i><soan>评论</soan></button></a>
+		<div class="rights"></div>
+		<a href="#"><button onclick="my()"><i class="iconfont icon-share"></i><soan>分享</soan></button></a>
+	</footer>
+	<!---=====js=====-->
+	<script type="text/javascript">
+	function Obtn(){
+	var a=document.getElementById('text');
+	var Icon=document.getElementById("icon");
+		if (a.innerHTML=="已关注") {
+			a.innerHTML="+ 关注";
+			a.style.color="#fff";
+			Icon.style.opacity=0;
+		}
+		else {
+			a.innerHTML="已关注";
+			a.style.color="#fff";
+			Icon.style.opacity=1;
+		}
+	}
+	
+	function my(){
+		var a=document.getElementById("box")
+		if (a.style.display!="block") {
+			a.style.display="block";
+		}else{
+			a.style.display="none";
+		}
+	};
+
+	
+	function My(){
+		var a=document.getElementById("box");
+		var html=document.documentElement;
+		if (a.style.display=="block") {
+			a.style.display="none";
+
+		}else{
+			a.style.display="none";
+		}
+	}	
+	</script>
+	<!--js结束-->
+	<article id="box"  class="article-box">
+	<section>
+	<h2>分享到我的</h2>
+		<div class="lian">
+			<span>分享到</span>
+			<ul>
+				<li class="right"><a href="#"><img src="../images/weibo.png"></a><h4>新浪微博</h4></li>
+				<li class="right"><a href="#"><img src="../images/weixin.png"></a><h4>微信好友</h4></li>
+				<li class="right"><a href="#"><img src="../images/qq.png"></a><h4>QQ好友</h4></li>
+				<li><a href="#"><img src="../images/kongjian.png"></a><h4>QQ空间</h4></li>
+			</ul>
+		</div>
+		<input type="button" class="but" value="取消" onclick="My()">
+	</section>
+	</article>
+</body>
+</html> 	

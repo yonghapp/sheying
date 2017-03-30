@@ -1,0 +1,166 @@
+﻿@charset "utf-8";
+*{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+.head-bg{
+	height: 36px;
+}
+.head{
+	width:100%;
+	min-width: 320px;
+	background: #10c7b8;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	z-index: 2;
+
+}
+.headform{
+	float: left;
+	width: 80%;
+	height: 29px;
+	margin-top: 7px;
+	border-radius: 3px;
+	margin-left: 6.66%;
+	background: #fff;
+}
+input.headsub{
+	
+	float: left;
+	width: 5%;
+	height: 16px;
+	margin:7px 0 6px 3%;
+	border:0 none;
+	background:url(../images/underwayicon_11.png)no-repeat;
+	background-position: 40% center;
+	background-size: 100% 100%;
+	color: #b7b7b7;
+	padding:0;
+	overflow: hidden;
+}
+input.headerseach{
+	-webkit-appearance:none;
+	float: right;
+	width: 90%;
+	height: 29px;
+	border:0 none;
+	padding:0;
+	overflow: hidden;
+	font-size: 16px;
+	line-height: 29px;
+	color: #989898;
+	overflow: hidden;
+}
+a.headicon-user{
+	display: block;
+	float: right;
+	width: 13.3%;
+	height: 29px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 23px;
+	color: #fff;
+}
+.ctttulPw{
+	width: 100%;
+}
+.ctttliPw{
+	width: 100%;
+	min-height: 201px;
+}
+.ctttaPw{
+	display: block;
+	width: 100%;
+	min-height: 201px;
+	background: url(../images/Previous-winner_02.png) no-repeat;
+	background-position: center center;
+	background-size: 100%;
+	position: relative;
+}
+.ctttaPw h3{
+	width:40% ;
+	height: 48px;
+	position: absolute;
+	top: 50%;
+	margin-top: -24px;
+	left: 50%;
+	margin-left: -20%;
+	background:rgba(53,135,124, .7);
+	line-height: 48px;
+	text-align: center;
+	font-size: 22px;
+	color: #fff;
+	font-family: "苹方";
+}
+.ctttaPw1{
+	background: url(../images/Previous-winner_03.png) no-repeat;
+	background-position: center center;
+	background-size: 100%;
+	position: relative;
+}
+.ctttaPw2{
+	background: url(../images/Previous-winner_04.png) no-repeat;
+	background-position: center center;
+	background-size: 100%;
+	position: relative;
+}
+.ctttaPw3{
+	background: url(../images/Previous-winner_02.png) no-repeat;
+	background-position: center center;
+	background-size: 100%;
+	position: relative;
+}
+.ctttaPw4{
+	background: url(../images/Previous-winner_04.png) no-repeat;
+	background-position: center center;
+	background-size: 100%;
+	position: relative;
+}
+.ctttaPw5{
+	background: url(../images/Previous-winner_03.png) no-repeat;
+	background-position: center center;
+	background-size: 100%;
+	position: relative;
+}
+
+.foot{
+	width: 100%;
+	height: 49px;
+	position: fixed;
+	bottom: 0;
+	border-top: 2px solid #c5c0c0;
+	background: #FFf;
+}
+.footul{
+	width: 100%;
+	height: 49px;
+}
+.footul li{
+	float: left;
+	width: 33.3%;
+	height: 42.5px;
+	padding-top: 7px;
+}
+.footul li a{
+	display: block;
+	height: 30px;
+	border-right: 1px solid #e1e1e1;
+	color: #929292;
+	text-align:center;
+	line-height: 16px;
+	
+}
+.footul li a i{
+	font-size: 22.5px;
+	line-height: 22px;
+}
+.footul .footulliuser{
+	border-right: 0 none;
+}
+.footul .footukliwork li a i{
+	
+}
+.footul .footukliwork a,
+.footul .footukliwork  a i{
+	color: #3ad1c5;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>参加比赛</title>
+	<link rel="stylesheet" type="text/css" href="../css/base.css">
+	<link rel="stylesheet" type="text/css" href="../css/Match.css">
+	<link rel="stylesheet" type="text/css" href="fonts/iconfont.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header>
+		<a href="jinxing.html"><i class="iconfont icon-3"></i></a>
+		<p>参加比赛</p>
+	</header>
+	<article>
+		<p>作品主题</p>
+		<input type="text" placeholder="点击输入作品主题">
+		<p>作品简介</p>
+		<textarea placeholder="介绍一下您的作品吧.."></textarea>
+		<a href="javascript::;"><i class="iconfont icon-xiangji"></i></a>
+		<p>点击添加照片</p>
+		<textarea class="text" placeholder="说点什么吧.."></textarea>
+		<input type="button" class="button" value="发送" onclick="my()">
+	</article>
+	<!---=====js=====-->
+	<script type="text/javascript">
+	
+	function my(){
+		var a=document.getElementById("box");
+		if (a.style.display!="block") {
+			a.style.display="block";
+		}else{
+			a.style.display="none";
+		}
+	};
+
+	function My(){
+		var a=document.getElementById("box");
+		if (a.style.display=="block") {
+			a.style.display="none";
+		}else{
+			a.style.display="none";
+		}
+	}	
+	</script>
+	<!--js结束-->
+	<article id="box"  class="article-box">
+	<section>
+		<p>共1张，金额5元。</p>
+		<input type="button" class="but" value="立即支付" onclick="My()">
+	</section>
+	</article>
+</body>
+</html> 	

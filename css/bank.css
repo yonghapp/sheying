@@ -1,0 +1,229 @@
+@charset "utf-8";
+*{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+body{
+	background: #f2f2f2;
+}
+.head{
+	width: 100%;
+	height: 44px;
+
+}
+.return{
+	display: block;
+	float: left;
+	width:9.6%;
+	height: 44px;
+	line-height:44px;
+	text-align: center;
+}
+.return i{
+	color: #282828;
+}
+.headh3{
+	float: right;
+	width: 90%;
+	height: 44px;
+	line-height: 44px;
+	font-size: 20px;
+	color: #282828;
+	text-align: center;
+	font-family: "苹方";
+}
+.ct{
+	width: 100%;
+}
+.bank{
+	background: #FFf;
+	height: 65px;
+	padding:0 6.93% 0 6.93%;
+	border-bottom: 1px solid #f0f0f0;
+}
+.banktype{
+	width: 13.3%;
+	height: 65px;
+	line-height: 65px;
+	font-size: 14px;
+	color: #333;
+	float: left;
+	overflow: hidden;
+	
+}
+.bankname{
+	float: left;
+	width: 86.70%;
+	height: 44px;
+	padding-top: 21px;
+	line-height:22px;
+	text-align: left;
+	padding-left: 6%;
+	font-size: 14px;
+}
+.limit{
+	padding-left: 19.2%;
+	font-size: 12px;
+}
+.money{
+	width: 86%;
+	height: 33.5px;
+	background:#fff;
+	padding:0 6.93% 0 6.93%;
+	line-height: 33.5px;
+}
+.money label{
+	width: 13.3%;
+	height: 33.5px;
+	line-height: 33.5px;
+	font-size: 14px;
+	color: #333;
+	float: left;	
+	overflow: hidden;
+}
+.money input{
+	font-size: 12px;
+	box-sizing: border-box;
+	padding-left: 1%;
+	padding-left: 3%;
+}
+.next{
+	width: 56.93%;
+	height: 45px;
+	background: #FFF;
+	margin:87.5px auto 0;
+	border-radius: 5px;
+}
+.next p{
+
+	color: #989898;
+	line-height: 45px;
+	text-align: center;
+	font-size: 18px;
+}
+.tianjiabank{
+	width: 100%;
+	height: 200px;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+	z-index: 2;
+	display: none;
+}
+.tj{
+	width: 100%;
+	height: 35px;
+}
+.finish{	
+	float: left;
+	padding:0  6.6% 0 5%;
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	color: #10C7B8;
+}
+.cancle{	
+	float: right;
+	padding:0 5% 0 6.6% ;
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	color: #10C7B8;
+}
+.newbank{
+	width: 100%;
+	height: 40px;
+	margin-top: 85px;
+	text-align: center;
+	line-height: 40px;
+	border-top: 1px solid #9f9f9f;
+	border-bottom: 1px solid #9f9f9f;
+	font-size: 14px;
+}
+.tinajiaka{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-bottom: 1px solid #9f9f9f;
+	font-size: 14px;
+}
+.tianjibankgbg{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.5);
+	z-index: 1;
+	display: none;
+}
+.secceed{
+	width: 320px;
+	height: 175px;
+	position: fixed;
+	top: 200px;
+	z-index: 2;
+	left: 50%;
+	display: none;
+	margin-left: -160px;
+	background: #fff;	
+	
+}
+.succeedtt{
+	width: 100%;
+	height: 63px;
+	border-bottom: 1px solid #e6e6e6;
+	line-height: 63px;
+	text-align: center;
+	font-size: 20px;
+	color: #333;
+}
+.succeedwd{
+	width: 202px;
+	height: 111px;
+	margin:0 auto ;
+	text-align: center;
+	font-size: 22px;
+	color: #19C7B8;
+	font-family: "苹方";
+	line-height: 28px;
+
+}
+.succeedwd a{
+	display: block;
+	float: left;
+	text-align: center;
+	font-size: 22px;
+	color: #19C7B8;
+	font-family: "苹方";
+	line-height: 28px;
+	color: #19C7B8;
+}
+.succeedwd i.icon-zhengque{
+	font-size: 66px;
+	color: #10C7B8;
+	line-height: 66px;
+}
+.succeedbg{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	display: none;
+	background: rgba(0,0,0, .5);
+}
+p.succeedwd input{
+	display: block;
+	width: 200px;
+	height: 30px;
+	margin-top: 10px;
+	border:1px solid #989898;
+	border-radius: 5px;
+	font-size: 14px;
+}
+p.succeedwd a{
+	margin-right: 110px;
+}
+p.succeedwd a.true{
+	margin-right: 0px;
+}

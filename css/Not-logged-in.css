@@ -1,0 +1,60 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+body{
+	/*overflow: hidden;*/
+}
+header{
+	z-index: 2;
+	width: 100%;
+}
+header figure{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: url(../images/ly2.png)no-repeat ;
+	background-position: center center;
+	background-size: cover;
+
+}
+header .icon-3{
+	position: absolute;
+	top: 1%;
+	left: 2%;
+	color: #fff;
+	font-size: 15px;
+}
+header h1 img{
+	margin-left: -59px;
+	position: fixed;
+	top: 22.6%;
+	bottom:20%;
+	left: 50%;
+	width: 118px;
+	height: 118px;
+}
+header input{
+	margin-top: 0%;
+	position: fixed;
+	top: 74.5%;
+	width: 37%;
+	height: 45pt;
+	font-size: 15px;
+	border-radius: 50px;
+
+}
+header input.left{
+	left: 8.8%;
+	color: #656565;
+	cursor:pointer;
+}
+header input.right{
+	right: 8.8%;
+	background: none;
+	border: 1px solid #fff;
+	color: #fff;
+	cursor:pointer;
+}

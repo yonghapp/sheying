@@ -1,0 +1,262 @@
+@charset "utf-8";
+*{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+.head-bg{
+	height: 36px;
+}
+.head{
+	width:100%;
+	min-width: 320px;
+	background: #10c7b8;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	z-index: 2;
+
+}
+.headform{
+	float: left;
+	width: 80%;
+	height: 29px;
+	margin-top: 7px;
+	border-radius: 3px;
+	margin-left: 6.66%;
+	background: #fff;
+}
+.icon-sou{
+	float: left;
+	width: 6%;
+	font-style: 40px;
+	text-align: center;
+	line-height: 29px;
+	color: #989898;
+	overflow: hidden;
+}
+input.headerseach{
+	-webkit-appearance:none;
+	float: right;
+	width: 94%;
+	height: 29px;
+	border: none;
+	padding:0;
+	overflow: hidden;
+	font-size: 16px;
+	line-height: 29px;
+	color: #989898;
+	overflow: hidden;
+}
+a.headicon-user{
+	display: block;
+	float: right;
+	width: 13.3%;
+	height: 29px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 23px;
+	color: #fff;
+}
+
+.content-underway{
+	width: 100%;
+	height: 40px;
+
+}
+.ct-udwayul{
+	width: 100%;
+	position: fixed;
+	z-index: 2;
+	top: 36px;	
+	background: #22c7b9;
+}
+.ct-udwayul li{
+	float: left;
+	width: 33.3%;
+	height:40px; ;
+	overflow: hidden;
+}
+.ct-udwayul li a{
+	line-height: 40px;
+	text-align: center;
+	font-size: 18px;
+}
+.ct-udwayul  .underwayli a {
+	color: #fff; 
+}
+
+.cttt{
+	width: 100%;
+
+}
+.cttticon{
+	width: 50%;
+	height: 35px;
+	float: left;
+	text-align: center;
+	font-size: 12px;
+	line-height: 35px;
+}
+.icon-huizhang{
+	font-size: 20px;
+}
+.icon-shizhong{
+	font-size: 20px;
+}
+.content{
+	width: 100%;	
+	height:271px ;
+	padding:8px 2.6% 0 2.6% ; 
+	box-sizing: border-box;
+	overflow: hidden;
+	border-bottom: 1px solid #c5c0c0;
+}
+.ctul-li{
+	width: 100%;
+	overflow: hidden;
+	position:relative;	
+	background: url(../images/share_07.png) no-repeat;
+	background-position:center center;
+	background-size: cover;
+	border-radius: 7px;
+}
+.ctula{
+	display: block;
+	height: 228px;
+	width: 100%;
+	background: rgba(0,0,0,0.4);
+}
+.ctul-li .h3{
+	width:80%;
+	height:19px;
+	position: absolute;
+	left:10% ;
+	top:52.19%;
+	z-index: 1;
+	line-height: 19px;
+	font-size: 18px;
+	text-align: center;
+	overflow: hidden;
+	color: #fff;
+}
+.underline,
+.underlinehh{
+	position: absolute;
+	width: 20%;
+	border:1px solid #fff;
+}
+.underline {
+	left: 0;
+	top: 7px;
+}
+.underlinehh{
+	right: 0;
+	top: 7px;
+	
+}
+.ctul-li .ctultitle{
+	width: 90%;
+	height: 16px;
+	position: absolute;
+	left: 5%;
+	top: 64%;
+	font-size: 14px;
+	text-align: center;	
+	line-height: 16px;
+	color: #fff;
+	overflow: hidden;
+	
+}
+.ctul-li .attention-btn-icon{
+	display: block;	
+	width: 52px;
+	height: 18px;
+	position: absolute;
+	right: 0;
+	top: 5.2%;
+	color: #fff;
+	padding:0;
+	margin:0;
+	border:0 none;
+	background: transparent;
+}
+.ctul-li .attention-btn-icon i{
+	display: block;
+	width: 52px;
+	height: 18px;
+	background: url(../images/underwayicong_03.png) no-repeat;
+	/*background-position: right center;*/
+	background-size: 100%;
+}
+.ctul-libg1{
+	background: url(../images/waitissue_07.png) no-repeat;
+	background-position:center center;
+	background-size: cover;
+}
+.ctul-libg2{
+	background: url(../images/waitissue_10.png) no-repeat;
+	background-position:center center;
+	background-size: cover;
+}
+
+.ctul-libg3{
+	background: url(../images/waitissue_12.png) no-repeat;
+	background-position:center center;
+	background-size: cover;
+}
+
+.ctul-libg4{
+	background: url(../images/waitissue_07.png) no-repeat;
+	background-position:center center;
+	background-size: cover;
+}
+
+.ctul-libg5{
+	background: url(../images/waitissue_03.png) no-repeat;
+	background-position:center center;
+	background-size: cover;
+}
+
+
+
+
+.foot{
+	width: 100%;
+	height: 49px;
+	position: fixed;
+	bottom: 0;
+	border-top: 2px solid #c5c0c0;
+	background: #FFf;
+}
+.footul{
+	width: 100%;
+	height: 49px;
+}
+.footul li{
+	float: left;
+	width: 33.3%;
+	height: 42.5px;
+	padding-top: 7px;
+}
+.footul li a{
+	display: block;
+	height: 30px;
+	border-right: 1px solid #e1e1e1;
+	color: #929292;
+	text-align:center;
+	line-height: 16px;
+	
+}
+.footul li a i{
+	font-size: 22.5px;
+	line-height: 22px;
+}
+.footul .footulliuser{
+	border-right: 0 none;
+}
+.footul .footukliwork li a i{
+	
+}
+.footul .footulliinde a,
+.footul .footulliinde a i{
+	color: #3ad1c5;
+}

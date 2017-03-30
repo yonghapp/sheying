@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+	 <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>  添加银行卡</title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+    <link rel="stylesheet" type="text/css" href="../css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/tjbank.css"/>
+    <link rel="stylesheet" type="text/css" href="fonts/iconfont.css"/>
+</head>
+<body>
+	<script>		
+		 function dd(){
+		 	var hk=document.getElementById("tianjiak");
+		 	if(hk.style.display="none"){
+		 		hk.style.display="block";
+		 		sd.style.display="block";
+		 	}
+		 }
+		  function al(){
+		 	var hk=document.getElementById("tianjiak");
+		 	if(hk.style.display="block"){
+		 		hk.style.display="none";
+		 	}
+		 }
+	</script>
+	<header class="head">
+		<a href="bank.html" class="return"><i class="iconfont icon-3"></i></a>
+		<h3 class="headh3">&nbsp;&nbsp;&nbsp;添加银行卡</h3>
+	</header>
+	<section class="ct">
+		<span class="ts">&nbsp;&nbsp;&nbsp;请绑定持卡人和持卡人银行</span>
+		<form action="" class="tjform">
+			<p class="tjip name">
+				<label>持卡人</label>
+				<input type="text" placeholder="持卡人姓名" />
+			</p>
+			<p class="number tjip ">
+				<label>银行卡</label>
+				<input type="text" placeholder="银行卡号" />
+			</p>
+		</form>
+		<section class="next">
+			<a href="tjbankph.html">下一步</a>
+		</section>
+	</section>
+</body>
+</html>

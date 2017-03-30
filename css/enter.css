@@ -1,0 +1,80 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+body{
+	overflow: hidden;
+}
+header{
+	z-index: 2;
+	width: 100%;
+	position: fixed;
+}
+header figure{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: url(../images/ly.png)no-repeat ;
+	background-position: center center;
+	background-size: cover;
+}
+header .icon-3{
+	position: fixed;
+	top: 1%;
+	left: 2%;
+	color: #fff;
+	font-size: 15px;
+}
+article{
+	position: fixed;
+	top: 23%;
+	left: 10%;
+	width: 76%;
+}
+article input{
+	width: 100%;
+	height: 40pt;
+	text-align: center;
+	font-size: 15px;
+	color: #656565;
+	font-weight: 600;
+	border-radius: 5px;
+}
+article input.shou-ji{
+	margin-bottom: 30px;
+}
+article input.mi-ma{
+	margin-bottom: 15px;
+}
+article h1{
+	text-align: right;
+	font-size: 15px;
+	color: #656565;
+}
+article p{
+	margin-top: 14px;
+	font-size: 12pt;
+	text-align: center;
+	color: #fff;
+}
+article ul li{
+	margin-top: 39px;
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+article ul li a{
+	color: #fff;
+}
+article ul li a i.iconfont{
+	font-size: 25px;
+}
+article input.enter{
+	margin: 67px 0 0 15%;
+	width: 68%;
+	color: #989898;
+	font-size: 25px;
+	cursor:pointer;
+}

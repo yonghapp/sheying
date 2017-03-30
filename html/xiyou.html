@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人作品详情</title>
+	<link rel="stylesheet" type="text/css" href="../css/base.css">
+	<link rel="stylesheet" type="text/css" href="../css/xi-you.css">
+	<link rel="stylesheet" type="text/css" href="fonts/iconfont.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body >
+	<header>
+		<a href="Fans.html"><i class="iconfont icon-3"></i></a>
+		<p>西柚作品详情</p>
+	</header>
+	<article>
+		<section class="top">
+			<img src="../images/xiang-qing.png">
+			<p>西柚</p>
+			<button onclick="Obtn()"><span id="text">+ 关注</span></button>
+		</section>
+		<section class="img-text">
+			<img src="../images/waitissue_03.png">
+			<p>落红翩翩舞，时光悄悄逐。问世间，谁能不向年华认输，只叫愁客一生感悟。岁月就如同片片的落红般，划过人间的尘埃，经历一番折腾后便静静葬入黄土，只留下透明的划痕，迷离着脑海。而不自量力的我，总是去触碰，最后只落下一声叹息，赴往那水中望月的曾经。</p>
+		</section>
+	</article>
+	<section class="jiaoliu">
+			<img src="../images/yonghu1.png">
+			<p class="right">30分钟前</p>
+			<p>Reknine<br><span>哇奥！真绝色，棒棒哒。</span></p>
+	</section>
+	<div class="xian"></div>
+
+	<section class="jiaoliu">
+			<img src="../images/yonghu1.png">
+			<p class="right">30分钟前</p>
+			<p>Reknine<br><span>哇奥！真绝色，棒棒哒。</span></p>
+	</section>
+	<div class="xian"></div>
+
+	<section class="jiaoliu">
+		<img src="../images/The-user-work-details_10.png">
+		<p class="right">33分钟前</p>
+		<p>皮皮虾<br><span>天啦噜，机智问答。</span></p>
+	</section>
+
+	<div class="juli"></div>
+	<footer>
+		<a href="comment.html"><button><i class="iconfont icon-pinglun"></i><soan>评论</soan></button onclick="my()"></a>
+		<a href="#"><button onclick="my()"><i class="iconfont icon-share"></i><soan>分享</soan></button></a>
+	</footer>
+	<!---=====js=====-->
+	<script type="text/javascript">
+	function Obtn(){
+	var a=document.getElementById('text');
+		if (a.innerHTML==="+ 关注") {
+			a.innerHTML="已关注";
+		}
+		else {
+			a.innerHTML="+ 关注";
+		}
+	};
+	
+	function my(){
+		var a=document.getElementById("box")
+		if (a.style.display!="block") {
+			a.style.display="block";
+		}else{
+			a.style.display="none";
+		}
+	};
+
+	function My(){
+		var a=document.getElementById("box");
+		var html=document.documentElement;
+		if (a.style.display=="block") {
+			a.style.display="none";
+
+		}else{
+			a.style.display="none";
+		}
+	}	
+	</script>
+	<!--js结束-->
+	<article id="box"  class="article-box">
+	<section>
+	<h2>分享到我的</h2>
+		<div class="lian">
+			<span>分享到</span>
+			<ul>
+				<li class="right"><a href="#"><img src="../images/weibo.png"></a><h4>新浪微博</h4></li>
+				<li class="right"><a href="#"><img src="../images/weixin.png"></a><h4>微信好友</h4></li>
+				<li class="right"><a href="#"><img src="../images/qq.png"></a><h4>QQ好友</h4></li>
+				<li><a href="#"><img src="../images/kongjian.png"></a><h4>QQ空间</h4></li>
+			</ul>
+		</div>
+		<input type="button" class="but" value="取消" onclick="My()">
+	</section>
+	</article>
+</body>
+</html> 	

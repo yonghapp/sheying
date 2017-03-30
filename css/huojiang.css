@@ -1,0 +1,227 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+html,body{
+	height: 100%;
+}
+header{
+	z-index: 2;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 44px;
+	background: #19c7b8;
+}
+header a{
+	margin-left: 2%;
+	display: block;
+	float: left;
+}
+header a i.icon-3{
+	font-size: 15px;
+	color: #fff;
+	line-height: 44px;
+}
+header p{
+	float: left;
+	width: 90%;
+	text-align: center;
+	line-height: 44px;
+	font-size: 20px;
+	color: #fff;
+}
+article.Ranking{
+	margin: 0 auto 20px auto;
+	width: 92%;
+}
+article.Ranking1{
+	border-bottom: 1px solid #e8e8e8;
+}
+article.Ranking .on{
+	clear:both;
+	margin-top: 64px;
+	width: 100%;
+	height: 20%;
+}
+article.Ranking .top{
+	clear:both;
+	margin-bottom: 10px;
+	width: 100%;
+	height: 20%;
+}
+article.Ranking section.top img{
+	float: left;
+	width: 69px;
+	height: 69px;
+}
+article.Ranking section.top p{
+	margin-left: 2%;
+	float: left;
+	font-size: 16px;
+	line-height: 69px;
+}
+article.Ranking button.btn{
+	z-index: 555;
+	margin-top: 21px;	
+	float: right;
+	width: 49px;
+	height: 21px;
+	font-size: 11px;
+	line-height: 15px;
+	border-radius: 5px;
+	background: #1bf3e4;
+	cursor:pointer;
+}
+article.Ranking section.img-text img{
+	margin-bottom: 13px;
+	width: 100%;
+}
+article.Ranking section.img-text p{
+	margin-bottom: 11px;
+	font-size: 13px;
+}
+section.img{
+	clear:both;
+	font-size: 13px;
+	position: relative;
+}
+figure{
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+figure img{
+	margin-top: 9px;
+	width: 100%;
+}
+summary{
+	z-index: -222;
+	position: absolute;
+	top: -50px;
+	right: 0;	
+	float: left;
+	width: 50%;
+}
+summary img{
+	margin-left: 2px;
+	width: 70%;
+}
+summary h2{
+	position: absolute;
+	top: 15%;
+	left: 15%;
+	line-height: 20px;
+	font-size: 16px;
+}
+summary p{
+	position: absolute;
+	bottom: -10%;
+	left: 10%;
+	text-indent: 2em;
+	line-height: 22px;
+	font-size: 12px;
+}
+nav{
+	clear:both;
+	width: 100%;
+}
+nav button{
+	margin-top: 5px;
+	width: 32%;
+	background: none;
+
+}
+nav button i.iconfont{
+	float: left;
+	margin-left: 25%;
+	color: #333;
+}
+nav button p{
+	float: left;
+	line-height: 22px;
+	margin-left: 2%;
+}
+/*---------------分享框-------------*/
+.article-box{
+	display: none;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.4);
+}
+.article-box section{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+.article-box section .lian{
+	margin: 0;
+	display: block;
+	width: 100%;
+	height: 146px;
+	background: #fff;
+	line-height: 81px;
+	font-size: 13px;
+}
+.article-box section h2{
+	display: block;
+	width: 100%;
+	height: 40px;
+	background: #fff;
+	border-bottom: 1px solid #e8e8e8;
+	line-height: 40px;
+	text-align: center;
+	font-size: 19px;
+	color: #333;
+}
+.article-box section .lian span{
+	display: block;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+.article-box section .lian ul{
+	margin: 0 auto;
+	width: 92%;
+	height: 71px;
+}
+.article-box section .lian ul li{
+	float: left;
+	width: 21.2%;
+	height: 91px;
+	color: #333;
+}
+.article-box section .lian ul li.right{
+	margin-right: 5%;
+}
+.article-box section .lian ul li a{
+	width: 100%;
+	height: 71px;
+	background: #f2f2f2;
+}
+.article-box section .lian ul li a img{
+	margin:8px 12px;
+	width: 70%;
+	height: 52px;
+}
+.article-box section .lian ul li h4{
+	margin-top: -30px;
+	text-align: center;
+}
+.article-box input.but{
+	width: 100%;
+	border-top: 1px solid #e1e1e1;
+	background: #fff;
+	border-radius: 0;
+	height: 49px;
+	font-size: 20px;
+	cursor:pointer;
+}

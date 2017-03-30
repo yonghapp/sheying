@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>关注</title>
+	<link rel="stylesheet" type="text/css" href="../css/base.css">
+	<link rel="stylesheet" type="text/css" href="../css/follow.css">
+	<link rel="stylesheet" type="text/css" href="fonts/iconfont.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body >
+	<header>
+		<a href="user.html"><i class="iconfont icon-3"></i></a>
+		<p>关注</p>
+	</header>
+	<article>
+		<section></section>
+		<section>
+			<a href="usercenter.html"><img src="../images/yonghu1.png"></a>
+			<p>Reknine<br><span>哇奥！真绝色，棒棒哒。</span></p>
+			<button onclick="my()">
+			<i id="icon" class="iconfont icon-huxiangguanzhu"></i>
+			<p id="text" class="texts">互相关注</p>
+			</button>
+		</section>
+		<div class="xian"></div>
+
+		<section>
+			<a href="usercenter.html"><img src="../images/The-user-work-details_10.png"></a>
+			<p>皮皮虾<br><span>天啦噜，机智问答。</span></p>
+			<button onclick="my1()">
+			<i id="icon1" class="iconfont icon-guanzhu"></i>
+			<p id="text1" class="texts">关 注</p>
+			</button>
+		</section>
+		<div class="xian"></div>
+
+		<section>
+			<a href="usercenter.html"><img src="../images/xiang-qing.png"></a>
+			<p>西柚<br><span>走的走，留的留，重拾自己...</span></p>
+			<button onclick="my2()">
+			<i id="icon2" class="iconfont icon-huxiangguanzhu"></i>
+			<p id="text2" class="texts">互相关注</p>
+			</button>
+		</section>
+		<div class="xian"></div>
+
+		<section>
+			<a href="usercenter.html"><img src="../images/top1.png"></a>
+			<p>空中云雨中花<br><span>你的温柔是最不动声色的力量。</span></p>
+			<button onclick="my3()">
+			<i id="icon3" class="iconfont icon-guanzhu"></i>
+			<p id="text3" class="texts">关 注</p>
+			</button>
+		</section>
+		<div class="xian"></div>	 
+	</article>
+
+	<!--=============j s==============-->
+	<script type="text/javascript">
+	
+	function my(){
+	var a=document.getElementById('text');
+	var Icon=document.getElementById("icon");
+		if (a.innerHTML=="互相关注") {
+			a.innerHTML="取消关注";
+			a.style.color="#1bcabb";
+			Icon.style.color="#1bcabb";
+		}
+		else {
+			a.innerHTML="互相关注";
+			a.style.color="#333";
+			Icon.style.color="#989898";
+		}
+	}
+
+	
+	function my1(){
+	var a1=document.getElementById('text1');
+	var Icon1=document.getElementById("icon1");
+		if (a1.innerHTML=="关 注") {
+			a1.innerHTML="已关注";
+			a1.style.color="#1bcabb";
+			Icon1.style.color="#1bcabb";
+
+		}
+		else {
+			a1.innerHTML="关 注";
+			a1.style.color="#333";
+			Icon1.style.color="#989898";
+
+		}
+	}
+
+
+	function my2(){
+	var a2=document.getElementById('text2');
+	var Icon2=document.getElementById("icon2");
+		if (a2.innerHTML=="互相关注") {
+			a2.innerHTML="取消关注";
+			a2.style.color="#1bcabb";
+			Icon2.style.color="#1bcabb";
+		}
+		else {
+			a2.innerHTML="互相关注";
+			a2.style.color="#333";
+			Icon2.style.color="#989898";
+		}
+	}
+
+
+	function my3(){
+	var a3=document.getElementById('text3');
+	var Icon3=document.getElementById("icon3");
+		if (a3.innerHTML=="关 注") {
+			a3.innerHTML="已关注";
+			a3.style.color="#1bcabb";
+			Icon3.style.color="#1bcabb";
+		}
+		else {
+			a3.innerHTML="关 注";
+			a3.style.color="#333";
+			Icon3.style.color="#989898";
+		}
+	}
+	</script>
+</body>
+</html> 	
