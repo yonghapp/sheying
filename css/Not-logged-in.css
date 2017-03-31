@@ -5,7 +5,7 @@
 	-webkit-tap-highlight-color:rgba(0,0,0,0);
 }
 body{
-	/*overflow: hidden;*/
+	font-size:10rem;
 }
 header{
 	z-index: 2;
@@ -25,25 +25,25 @@ header .icon-3{
 	top: 1%;
 	left: 2%;
 	color: #fff;
-	font-size: 15px;
+	font-size: 1.5rem;
 }
 header h1 img{
-	margin-left: -59px;
+	margin-left: -5.9rem;
 	position: fixed;
 	top: 22.6%;
 	bottom:20%;
 	left: 50%;
-	width: 118px;
-	height: 118px;
+	width: 11.8rem;
+	height: 11.8rem;
 }
 header input{
 	margin-top: 0%;
 	position: fixed;
 	top: 74.5%;
 	width: 37%;
-	height: 45pt;
-	font-size: 15px;
-	border-radius: 50px;
+	height: 4.5rem;
+	font-size: 1.5rem;
+	border-radius: 5rem;
 
 }
 header input.left{
@@ -54,7 +54,7 @@ header input.left{
 header input.right{
 	right: 8.8%;
 	background: none;
-	border: 1px solid #fff;
+	border: 0.1rem solid #fff;
 	color: #fff;
 	cursor:pointer;
 }

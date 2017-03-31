@@ -4,8 +4,12 @@
 	padding: 0;
 	-webkit-tap-highlight-color:rgba(0,0,0,0);
 }
+html{
+	font-size:10rem;
+}
 body{
 	overflow: hidden;
+
 }
 header{
 	z-index: 2;
@@ -25,7 +29,7 @@ header .icon-3{
 	top: 1%;
 	left: 2%;
 	color: #fff;
-	font-size: 15px;
+	font-size: 1.5rem;
 }
 article{
 	position: fixed;
@@ -35,32 +39,32 @@ article{
 }
 article input{
 	width: 100%;
-	height: 40pt;
+	height: 4rem;
 	text-align: center;
-	font-size: 15px;
+	font-size: 1.5rem;
 	color: #656565;
 	font-weight: 600;
-	border-radius: 5px;
+	border-radius: 0.5rem;
 }
 article input.shou-ji{
-	margin-bottom: 30px;
+	margin-bottom: 3rem;
 }
 article input.mi-ma{
-	margin-bottom: 15px;
+	margin-bottom: 1.5rem;
 }
 article h1{
 	text-align: right;
-	font-size: 15px;
+	font-size: 1.5rem;
 	color: #656565;
 }
 article p{
-	margin-top: 14px;
-	font-size: 12pt;
+	margin-top: 1.4rem;
+	font-size: 1.2rem;
 	text-align: center;
 	color: #fff;
 }
 article ul li{
-	margin-top: 39px;
+	margin-top: 2rem;
 	float: left;
 	width: 33%;
 	text-align: center;
@@ -69,10 +73,11 @@ article ul li a{
 	color: #fff;
 }
 article ul li a i.iconfont{
-	font-size: 25px;
+	font-size: 2.5rem;
 }
 article input.enter{
-	margin: 67px 0 0 15%;
+	display: inline-block;
+	margin: 7rem 0 0 15%;
 	width: 68%;
 	color: #989898;
 	font-size: 25px;

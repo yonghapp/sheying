@@ -17,4 +17,17 @@
 	</header>
 	
 </body>
+ <script type="text/javascript">
+          size();
+          window.onresize=function(){
+            size();
+          };
+          function size(){
+            var html=document.getElementsByTagName('html')[0];
+            html.style.fontSize=10*(window.innerWidth/375)+"px";
+            if(window.innerWidth=="375px"){
+              window.innerWidth="375px";
+            }
+          }
+  </script>
 </html>

@@ -14,16 +14,29 @@
 		<article>
 			<input type="text" class="shou-ji"  placeholder="输入手机号">
 			<input type="text" class="mi-ma" placeholder="输入密码">
-			<h1>登录遇到问题?</h1>
+			<h1><a href="">登录遇到问题?</a></h1>
 			<p>第三方</p>
 			<ul>
-				<li><a href="javascript::;"><i class="iconfont icon-weixin"></i></a></li>
-				<li><a href="javascript::;"><i class="iconfont icon-qq"></i></a></li>
-				<li><a href="javascript::;"><i class="iconfont icon-weibo"></i></a></li>
+				<li><a href=""><i class="iconfont icon-weixin"></i></a></li>
+				<li><a href=""><i class="iconfont icon-qq"></i></a></li>
+				<li><a href=""><i class="iconfont icon-weibo"></i></a></li>
 			</ul>
 			<a href="Not-logged-in.html"><input type="button" class="enter" value="登 入"></a>
 		</article>
 	</header>
+	<script type="text/javascript">
+          size();
+          window.onresize=function(){
+            size();
+          };
+          function size(){
+            var html=document.getElementsByTagName('html')[0];
+            html.style.fontSize=10*(window.innerWidth/375)+"px";
+            if(window.innerWidth=="375px"){
+              window.innerWidth="375px";
+            }
+          }
+  </script>
 	
 </body>
 </html>
