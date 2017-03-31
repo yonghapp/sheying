@@ -18,9 +18,22 @@
 
 			<p><input type="checkbox"  class="radio"><span>（我接受此条款内容）</span></p>
 			
-			<input type="button" class="enter" value="注 册">
+			<a href="enter.html"><input type="button" class="enter" value="注 册"></a>
 		</article>
 	</header>
+	<script type="text/javascript">
+          size();
+          window.onresize=function(){
+            size();
+          };
+          function size(){
+            var html=document.getElementsByTagName('html')[0];
+            html.style.fontSize=10*(window.innerWidth/375)+"px";
+            if(window.innerWidth=="375px"){
+              window.innerWidth="375px";
+            }
+          }
+  </script>
 	
 </body>
 </html>
